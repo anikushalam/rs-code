@@ -1,0 +1,16 @@
+.skewedContainer {
+  transform: skewY(-5deg);
+  border-radius: 30px;
+  margin: 26px 0 56px 0;
+  box-shadow: 4px 5px 60px 0px rgba(178, 180, 187, 0.05);
+}
+.skewedBody {
+  transform: skewY(5deg);
+}
+
+.skewedContainer .author-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-bottom: 30px;
+}
